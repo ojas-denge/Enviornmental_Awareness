@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>INSPIRE</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <link rel="stylesheet" href="../res/css/style.css" />
+        <link rel='stylesheet' href='style.css' />
+        <link rel="shortcut icon" href="https://www.gatech.edu/sites/all/themes/gt_tlw/favicon.ico" type="image/vnd.microsoft.icon">
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.10.0/rellax.min.js" integrity="sha256-jyHh7xruaFLUoKPPnsSwEvYrBnzJczScRNnuh4Ysblc=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/16.1.0/smooth-scroll.min.js" integrity="sha256-CfyPGYLRQ4v1O+mZa5ocQglABXGuaZmmfe8awy8Fxis=" crossorigin="anonymous"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-analytics.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.1.2/handlebars.min.js"></script>
+    </head>
+    <body>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <a class="navbar-brand" style="color: rgb(216, 189, 38)" href="/">Environmental Awareness</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../idea/index.html">Idea</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/">Inspire</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../innovate/index.html">Innovate</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+        <h2>INSPIRE</h2>
+        <br>
+        <br>
+        <p class='text'>
+            <b>Uncover powerful narratives of change as individuals share motivational stories, proving that significant transformations stem from small, impactful steps.</b>
+        </p>
+        <br>
+        <br>
+        <div class='cases'>
+       
+            <div class='case'>
+                <img class='case-img left' src='../res/imgs/about/cases/trees.png' alt='Image related to No Plastic' />
+                <div class='case-summary'>
+                    <strong>Ananya's Eco-Corridor, Pune:</strong> Ananya, a resident of Pune, noticed the escalating pollution in her locality. Instead of turning a blind eye, she initiated a tree-planting campaign along a neglected stretch of land. The initiative not only beautified the area but also inspired locals to take up the cause. Soon, what was once a barren corridor became a thriving eco-space, setting an example for other neighborhoods across Pune.
+                </div>
+            </div>
+        
+            <div class='case'>
+                <div class='case-summary'>
+                    <strong>Arjun's Pedal Revolution in Jaipur:</strong> Arjun, frustrated with the traffic snarls and air pollution in Jaipur, decided to ditch his motorbike for a bicycle. His commitment to eco-friendly commuting gained attention, and he soon organized "Cycle Yatras" encouraging others to join. The movement gained traction, transforming Jaipur into a city where cycling wasn't just a mode of transport but a lifestyle, significantly reducing emissions and promoting a healthier community.
+                </div>
+                <img class='case-img right' src='../res/imgs/about/cases/cycle.jpg' alt='Image of Sustainable House Practices' />
+            </div>
+            <br>
+            <div class='case'>
+                <img class='case-img left' src='../res/imgs/about/cases/beach.jpg' alt='Image related to Gardening' />
+                <div class='case-summary'>
+                    <strong>Meera's Vizag Beach Cleanup:</strong> Meera, a resident of Visakhapatnam, couldn't stand the sight of plastic litter on her favorite beach. Armed with determination, she organized weekly beach cleanups, drawing in volunteers from all walks of life. The movement snowballed, turning into a citywide coastal cleanup brigade. Meera's efforts not only restored the pristine beauty of Vizag's beaches but also ignited a broader awareness about responsible waste disposal.
+                </div>
+            </div>
+            <br>
+            <div class='case'>
+                <div class='case-summary'>
+                    <strong>Rohan's Organic Kitchen in Bangalore:</strong> Chef Rohan, managing a popular restaurant in Bangalore, decided to tackle food waste and unsustainable sourcing. By implementing composting and sourcing ingredients locally, he set a new standard for sustainable dining. Other chefs in Bangalore soon followed suit, turning the city into a hub for eco-friendly gastronomy. Rohan's kitchen revolution not only delighted taste buds but also set the stage for a broader movement towards sustainable dining practices.
+                </div>
+                <img class='case-img right' src='../res/imgs/about/cases/organic.jpeg' alt='Image of Sustainable House Practices' />
+            </div>
+            <br>
+            <div class='case'>
+                <img class='case-img left' src='../res/imgs/about/cases/straw.jpg' alt='Image related to Gardening' />
+                <div class='case-summary'>
+                    <strong>Priya's Straw Ban in Mumbai:</strong> Priya, a college student in Mumbai, was appalled by the plastic waste generated by single-use straws. She spearheaded a campaign to eliminate straws from her college campus and partnered with local businesses to adopt sustainable alternatives. What began as a campus initiative gained momentum, leading to a citywide movement. Priya's simple idea of going straw-free had a profound impact on reducing plastic pollution, inspiring other communities across Mumbai to follow suit.
+                </div>
+            </div>
+        </div>
+        
+        </div>
+                 
+        <script src='../res/js/frontend.js'></script>
+    </body>
+</html>
